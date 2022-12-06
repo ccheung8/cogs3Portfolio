@@ -1,0 +1,249 @@
+body {
+	font-family: 'Lora';
+	background-color: #000;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 4rem;
+	color: #fff;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+a {
+	text-decoration: underline;
+	color: white !important;
+}
+
+/***** index.html *****/
+
+/* hero */
+.hero-image {
+	width: 100%;
+	height: 750px;
+	object-fit: cover;
+}
+
+/* Navigation Bar */
+.navbar {
+	padding: 15px 56px;
+}
+
+.logo {
+	width: 50px;
+}
+
+.navbar-item {
+	padding: 0 30px;
+}
+
+.navbar-item a{
+	text-decoration: none;
+}
+
+.active {
+	border-bottom: 2px solid white;
+}
+
+.nav-link {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #fff !important;
+}
+
+/* work */
+#work {
+	padding: 6% 56px;
+}
+
+#work a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.work-title {
+	text-decoration: underline;
+}
+
+.work-thumbnail {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	padding-top: 48px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	transition: transform 1s;
+}
+
+.work-thumbnail:hover {
+	transform: scale(1.1);
+	object-fit: cover;
+}
+
+/* footer */
+#footer {
+	padding: 5% 15% 0;
+	text-align: center;
+	color: #fff;
+}
+
+.footer-links {
+	color: #fff !important;
+	text-decoration: underline;
+	padding: 0 30px;
+	font-size: 1.5rem;
+}
+
+.copyright {
+	padding-top: 7%;
+	color: #a3a3a3;
+}
+
+/***** play.html *****/
+
+.header {
+	padding: 10% 15%;
+	text-align: center;
+	color: #fff;
+}
+
+#play {
+	padding: 5% 15%;
+}
+
+/* play content styling */
+.card {
+	border: none !important;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 5% 0;
+}
+
+.play-images-tall {
+	height: 600px;
+}
+
+.play-images-wide {
+	width: 100%;
+}
+
+.play-subtitle {
+	font-weight: bold;
+	color: #a3a3a3;
+}
+
+/***** about.html *****/
+
+#about {
+	padding: 0 56px;
+}
+
+.image {
+	width: 100%;
+}
+
+.bio-header {
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+.bio {
+	padding-top: 13%;
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 3rem;
+}
+
+/***** case studies *****/
+
+.thumbnail {
+	width: 100%;
+	height: 575px;
+	object-fit: cover;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.body-text {
+	text-align: left;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+.subtitle {
+	padding-top: 28px;
+	color: #a3a3a3;
+}
+
+.card-title {
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding-top: 20px;
+}
+
+.card-row-padding {
+	padding-bottom: 10%;
+}
+
+.white-bg {
+	background-color: #fff;
+	padding: 5% 3%;
+	filter: drop-shadow(2px 4px 6px #000);
+}
+
+.quote {
+	text-align: left;
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding: 2% 0 2% 5%;
+}
+
+.card-img-tall {
+	height: 750px;
+	padding-top: 25px;
+	object-fit: scale-down;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-img-wide {
+	height: 380px;
+	padding-top: 25px;
+	object-fit: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.problem-statement {
+	text-align: center;
+	font-size: 2.2rem;
+	padding: 3% 6% 0;
+	line-height: 3rem;
+}
+
+.img-labels {
+	text-align: center;
+	font-weight: bold;
+	padding: 3% 0;
+}
+
+#dark {
+	padding: 8% 56px;
+	background-color: #000;
+	text-align: left;
+	color: white;
+}
+
+#light {
+	padding: 8% 56px;
+	background-color: #f5f5f5;
+	text-align: left;
+	color: black;
+}
